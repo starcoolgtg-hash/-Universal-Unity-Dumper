@@ -14,7 +14,7 @@ The app features a **Modern Bento-Style Dashboard** designed for efficiency and 
 
 | Main Dashboard | Terminal Logs | Configuration |
 | :---: | :---: | :---: |
-| ![Dashboard Placeholder](https://via.placeholder.com/200x400?text=Dashboard+UI) | ![Terminal Placeholder](https://via.placeholder.com/200x400?text=Live+Terminal) | ![Settings Placeholder](https://via.placeholder.com/200x400?text=Settings+UI) |
+| ![Dashboard Placeholder]() | ![Terminal Placeholder](https://via.placeholder.com/200x400?text=Live+Terminal) | ![Settings Placeholder](https://via.placeholder.com/200x400?text=Settings+UI) |
 
 ---
 
