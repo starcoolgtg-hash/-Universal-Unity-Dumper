@@ -1,89 +1,81 @@
-<img width="567" height="1280" alt="image" src="https://github.com/user-attachments/assets/ab0c75dc-8f5b-4e8f-8bed-261e58f70bc6" /># 🚀 STARCOOL DUMPER
-
-![Branding](https://img.shields.io/badge/Release-v3.0.1-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-Android%2010%2B-blue)
-![Architecture](https://img.shields.io/badge/Arch-arm64--v8a-orange)
-![Android 15](https://img.shields.io/badge/Android%2015-Compatible-red)
-
-**STARCOOL DUMPER** is a high-end, professional toolkit designed for Android Reverse Engineering. It combines a high-performance **Rust-based static engine** with an advanced **C++ live injection system** to provide the most stable and detailed Unity/IL2CPP dumping experience.
-
----
-
-## 💎 Premium UI Experience
-The app features a **Modern Bento-Style Dashboard** designed for efficiency and clarity. No more hidden features—everything you need is at your fingertips.
-
-Main Dashboard
-[Dashboard](<img width="1080" height="2436" alt="image" src="https://github.com/user-attachments/assets/4c494dd2-cc81-43b7-9818-356ae46aa32e" />
-
----
-
-## ✨ Key Features
-
-### 🛠️ Dual-Engine Analysis
-*   **Static Engine (Rust):** Blazing fast ELF parsing, symbol extraction, and C++ header reconstruction from raw `.so` files.
-*   **Live Engine (C++):** Real-time process injection using **Dobby Hook** to extract metadata directly from the game's memory.
-
-### 🎯 Unity/IL2CPP Specialized
-*   **Comprehensive Outputs:** Generates `dump.cs`, `il2cpp.h`, `script.json` (for IDA Pro), and `script.py`.
-*   **Pseudo-code Recovery:** Advanced logic to reconstruct function structures and variable names.
-*   **Auto-Collect:** Automatically moves dump files from the target game's internal directory to `/storage/emulated/0/Dumper/`.
-
-### 🛡️ Android 15 & 16KB Ready
-*   Fully optimized for the latest Android 15 devices.
-*   Built with **16KB Page Alignment** to ensure library validity on flagship hardware (Infinix, Pixel, etc.).
-
-### 🖥️ Integrated Terminal log
-*   Monitor injection progress in real-time with the built-in **Live Terminal**.
-*   View logs from `MXP`, `StarcoolRuntime`, and `Root Shell` directly inside the app.
-
----
-
-## 🌍 Language Support
-The UI is fully localized and synchronizes with your device language:
-*   🇺🇸 **English** (Standard)
-*   🇮🇩 **Indonesian**
-*   🇸🇦 **Arabic**
-*   🇫🇷 **French**
-*   🇷🇺 **Russian**
-*   *...and many more!*
-
----
-
-## 🚀 How to Use
-
-### 1. Static Dump (Non-Root)
-1.  Open the app and click **"Pilih Pustaka" (Select Library)**.
-2.  Choose a `.so` file from your storage.
-3.  Configure your reconstruction settings in the vertical cards.
-4.  Click **"Generate Dump"**.
-
-### 2. Unity Dumper (Root Required)
-1.  Enter the **Game Package Name** in the Unity Dumper card.
-2.  Click **"Inject & Dump Now"**.
-3.  The app will automatically launch the game.
-4.  Confirm the injection when the game is in the Lobby/Match.
-5.  Watch the **Terminal** for completion and check your `/Dumper/` folder.
-
----
-
-## 🏗️ Technical Stack
-*   **Frontend:** Kotlin (Jetpack Compose)
-*   **Static Engine:** Rust
-*   **Live Backend:** C++ 20
-*   **Hooking Library:** Dobby
-*   **Memory Management:** KittyMemory
-
----
-
-## 🤝 Connect with Us
-Stay updated and join our community for support and discussions:
-*   📢 **Main Channel:** [STARCOOL PLUS](https://t.me/STARCOOLPLUS)
-*   💬 **Discussion Group:** [Join Chat](https://t.me/+pvVFT5Dfcvk2MzM1)
-
----
-
-## 📜 Disclaimer
+🚀 STARCOOL DUMPER
+Release Platform Architecture Android 15
+STARCOOL DUMPER is a professional-grade Android toolkit designed for high-end ELF analysis and Unity/IL2CPP reverse engineering. By combining a high-performance Rust engine with an advanced C++ live injection system, it provides the most stable and detailed dumping experience available for modern Android devices.
+✨ Key Features
+🛠️ Dual-Engine Analysis
+•
+Static Engine (Rust-Powered): Performs ultra-fast ELF parsing and symbol extraction from raw .so files without requiring Root or a running process.
+•
+Live Engine (C++ Backend): Real-time process injection using the Dobby Hooking framework to dump metadata directly from the game's active memory.
+🎯 Unity/IL2CPP Specialized
+•
+Rich Metadata Output: Automatically generates dump.cs, il2cpp.h, script.json (for IDA Pro), and script.py.
+•
+Advanced Reconstruction: Recovers class structures, namespaces, method offsets, and static fields.
+•
+Auto-Collect System: Automatically detects and moves dump files from the game's internal directory to public storage (/sdcard/Dumper/).
+🛡️ Android 15 & 16KB Optimized
+•
+Modern Compatibility: Fully optimized for the latest Android 15 devices.
+•
+16KB Page Alignment: Built using the latest NDK standards to ensure injected libraries are valid on flagship hardware (Pixel, Infinix, etc.).
+🖥️ Integrated Live Terminal
+•
+Real-time Monitoring: Watch the injection and dumping process line-by-line via the built-in terminal dashboard.
+•
+Multi-Tag Logging: Integrated logs from MXP, StarcoolRuntime, and Root Shell.
+🌍 Global Language Support
+The interface is fully localized and automatically synchronizes with your device language. Currently supporting:
+•
+🇺🇸 English (Standard)
+•
+🇮🇩 Indonesian
+•
+🇸🇦 Arabic
+•
+🇫🇷 French
+•
+🇷🇺 Russian
+•
+...and 5 other major languages.
+🏗️ Technical Stack
+•
+Frontend: Kotlin & Jetpack Compose (Modern, Lightweight UI)
+•
+Static Analysis: Rust (Memory safety and speed)
+•
+Live Backend: C++ 20 (Direct memory access)
+•
+Hooking Framework: Dobby
+•
+Memory Management: KittyMemory
+🚀 How to Use
+Mode 1: Static Analysis
+1.
+Open the app and select "Select Library".
+2.
+Choose a .so file from your device storage.
+3.
+Configure your extraction settings (Symbols, Strings, Reconstruction).
+4.
+Click "Generate Dump".
+Mode 2: Unity Dumper (Root Required)
+1.
+Enter the Game Package Name in the Unity Dumper card.
+2.
+Click "Inject & Dump Now".
+3.
+The app will automatically launch the target game.
+4.
+Confirm the injection when the game reaches the Lobby or Match.
+5.
+Monitor the Terminal and find your files in the /Dumper/ folder.
+🤝 Connect with Us
+Join our community for updates, support, and technical discussions:
+•
+📢 Telegram Channel: STARCOOL PLUS
+•
+💬 Discussion Group: Join Chat
+📜 Disclaimer
 This tool is intended for educational and research purposes only. The developer is not responsible for any misuse or damage caused by this application. Always respect the Terms of Service of the software you are analyzing.
-
----
-*Generated by STARCOOL DUMPER v3.0.1*
+Developed by STARCOOL | v3.0.1 Professional Edition
