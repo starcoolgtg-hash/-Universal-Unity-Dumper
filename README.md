@@ -12,12 +12,9 @@
 ## 💎 Premium UI Experience
 The app features a **Modern Bento-Style Dashboard** designed for efficiency and clarity. No more hidden features—everything you need is at your fingertips.
 
-| Main Dashboard | About | Configuration |
+| Main Dashboard |
 | :---: | :---: | :---: |
 | ![Dashboard Placeholder](<img width="1080" height="2436" alt="image" src="https://github.com/user-attachments/assets/4c494dd2-cc81-43b7-9818-356ae46aa32e" />
-) | ![About Placeholder](<img width="567" height="1280" alt="image" src="https://github.com/user-attachments/assets/983e6b26-17a9-4aa3-b461-6cec63fcb76d" />
-) | ![Settings Placeholder](<img width="567" height="1280" alt="image" src="https://github.com/user-attachments/assets/1f498845-b83a-4f82-9fd5-8245517a120e" />
-) |
 
 ---
 
