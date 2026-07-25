@@ -1,4 +1,4 @@
-# 🚀 STARCOOL DUMPER
+<img width="567" height="1280" alt="image" src="https://github.com/user-attachments/assets/ab0c75dc-8f5b-4e8f-8bed-261e58f70bc6" /># 🚀 STARCOOL DUMPER
 
 ![Branding](https://img.shields.io/badge/Release-v3.0.1-brightgreen)
 ![Platform](https://img.shields.io/badge/Platform-Android%2010%2B-blue)
@@ -12,10 +12,11 @@
 ## 💎 Premium UI Experience
 The app features a **Modern Bento-Style Dashboard** designed for efficiency and clarity. No more hidden features—everything you need is at your fingertips.
 
-| Main Dashboard | Terminal Logs | Configuration |
+| Main Dashboard | About | Configuration |
 | :---: | :---: | :---: |
-| ![Dashboard Placeholder](<img width="1080" height="2436" alt="image" src="https://github.com/user-attachments/assets/94442f46-4533-4939-926c-fec14c910964" />
-) |  | ![Settings Placeholder](<img width="567" height="1280" alt="image" src="https://github.com/user-attachments/assets/8e7847d5-bb79-4a62-9ff8-5df8e5235aa4" />
+| ![Dashboard Placeholder](<img width="1080" height="2436" alt="image" src="https://github.com/user-attachments/assets/4c494dd2-cc81-43b7-9818-356ae46aa32e" />
+) | ![About Placeholder](<img width="567" height="1280" alt="image" src="https://github.com/user-attachments/assets/983e6b26-17a9-4aa3-b461-6cec63fcb76d" />
+) | ![Settings Placeholder](<img width="567" height="1280" alt="image" src="https://github.com/user-attachments/assets/1f498845-b83a-4f82-9fd5-8245517a120e" />
 ) |
 
 ---
